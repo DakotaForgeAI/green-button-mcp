@@ -1,0 +1,23 @@
+# Real Green Button downloads must never be committed.
+# Only the synthetic sample is allowed.
+*.xml
+!samples/synthetic_green_button.xml
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+uv.lock
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
